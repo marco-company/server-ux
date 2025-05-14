@@ -61,7 +61,7 @@ addon | version | maintainers | summary
 [sequence_check_digit](sequence_check_digit/) | 16.0.1.0.1 |  | Adds a check digit on sequences
 [sequence_reset_period](sequence_reset_period/) | 16.0.1.0.0 |  | Auto-generate yearly/monthly/weekly/daily sequence period ranges
 [server_action_mass_edit](server_action_mass_edit/) | 16.0.2.1.1 |  | Mass Editing
-[template_content_swapper](template_content_swapper/) | 16.0.1.0.1 |  | Template Content Swapper
+[template_content_swapper](template_content_swapper/) | 16.0.1.1.0 | [![yostashiro](https://github.com/yostashiro.png?size=30px)](https://github.com/yostashiro) [![AungKoKoLin1997](https://github.com/AungKoKoLin1997.png?size=30px)](https://github.com/AungKoKoLin1997) | Template Content Swapper
 [test_base_binary_url_import](test_base_binary_url_import/) | 16.0.1.0.1 |  | Unittests for Base Binary URL Import module
 [user_all_groups](user_all_groups/) | 16.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Automatically add admin user to all the groups
 
