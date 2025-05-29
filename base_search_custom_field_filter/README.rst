@@ -121,10 +121,13 @@ promote its widespread use.
 .. |maintainer-pedrobaeza| image:: https://github.com/pedrobaeza.png?size=40px
     :target: https://github.com/pedrobaeza
     :alt: pedrobaeza
+.. |maintainer-CarlosRoca13| image:: https://github.com/CarlosRoca13.png?size=40px
+    :target: https://github.com/CarlosRoca13
+    :alt: CarlosRoca13
 
-Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-pedrobaeza| 
+|maintainer-pedrobaeza| |maintainer-CarlosRoca13| 
 
 This module is part of the `OCA/server-ux <https://github.com/OCA/server-ux/tree/16.0/base_search_custom_field_filter>`_ project on GitHub.
 

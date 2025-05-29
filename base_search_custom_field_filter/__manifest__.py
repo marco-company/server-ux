@@ -16,5 +16,5 @@
     "depends": ["web"],
     "license": "AGPL-3",
     "installable": True,
-    "maintainers": ["pedrobaeza"],
+    "maintainers": ["pedrobaeza", "CarlosRoca13"],
 }
