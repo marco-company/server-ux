@@ -47,7 +47,7 @@ addon | version | maintainers | summary
 [base_tier_validation_server_action](base_tier_validation_server_action/) | 16.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Add option to call server action when a tier is validated
 [base_tier_validation_waiting](base_tier_validation_waiting/) | 16.0.1.0.0 |  | Base Tier Validation Extension to add waiting status
 [base_user_chatter](base_user_chatter/) | 16.0.1.0.0 |  | User Chatter
-[base_user_locale](base_user_locale/) | 16.0.1.1.0 |  | User Locale Settings
+[base_user_locale](base_user_locale/) | 16.0.1.1.1 |  | User Locale Settings
 [confirmation_wizard](confirmation_wizard/) | 16.0.1.0.0 |  | This module adds a confirmation wizard that can be called with code. It does nothing by itself.
 [date_range](date_range/) | 16.0.1.0.9 | <a href='https://github.com/lmignon'><img src='https://github.com/lmignon.png' width='32' height='32' style='border-radius:50%;' alt='lmignon'/></a> | Manage all kind of date range
 [date_range_account](date_range_account/) | 16.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add Date Range menu entry in Invoicing app
