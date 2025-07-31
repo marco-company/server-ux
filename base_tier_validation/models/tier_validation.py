@@ -186,12 +186,20 @@ class TierValidation(models.AbstractModel):
 
     @api.depends("review_ids", "review_ids.status")
     def _compute_validation_status(self):
+        validated_states = self._validated_states()
+        rejected_states = self._rejected_states()
         for item in self:
             reviews = item.review_ids
-            any_approved = any(reviews.filtered(lambda x: x.status == "approved"))
-            any_rejected = any(reviews.filtered(lambda x: x.status == "rejected"))
+            any_approved = any(reviews.filtered(lambda x: x.status in validated_states))
+            any_rejected = any(reviews.filtered(lambda x: x.status in rejected_states))
             any_pending = any(reviews.filtered(lambda x: x.status == "pending"))
-            if reviews and any_approved and not any_rejected:
+            if (
+                reviews
+                and not any(
+                    reviews.filtered(lambda x: x.status not in validated_states)
+                )
+                and not any_rejected
+            ):
                 item.validation_status = "validated"
             elif reviews and not any_approved and any_rejected:
                 item.validation_status = "rejected"
