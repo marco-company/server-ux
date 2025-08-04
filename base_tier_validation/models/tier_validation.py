@@ -190,20 +190,13 @@ class TierValidation(models.AbstractModel):
         rejected_states = self._rejected_states()
         for item in self:
             reviews = item.review_ids
-            any_approved = any(reviews.filtered(lambda x: x.status in validated_states))
             any_rejected = any(reviews.filtered(lambda x: x.status in rejected_states))
             any_pending = any(reviews.filtered(lambda x: x.status == "pending"))
-            if (
-                reviews
-                and not any(
-                    reviews.filtered(lambda x: x.status not in validated_states)
-                )
-                and not any_rejected
-            ):
+            if reviews and all(x.status in validated_states for x in reviews):
                 item.validation_status = "validated"
-            elif reviews and not any_approved and any_rejected:
+            elif any_rejected:
                 item.validation_status = "rejected"
-            elif reviews and not any_approved and not any_rejected and any_pending:
+            elif any_pending:
                 item.validation_status = "pending"
             else:
                 item.validation_status = "no"
