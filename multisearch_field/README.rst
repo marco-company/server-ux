@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 ================================
 Field MultiSearch with separator
 ================================
@@ -17,7 +13,7 @@ Field MultiSearch with separator
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fserver--ux-lightgray.png?logo=github
@@ -38,7 +34,29 @@ For that, it add code before the search function.
 It will allow you to search for multiple values separated by the character you
 have configured.
 * It will split the value like this:
-[("name", "ilike","/Hart|perry;kelly")] => ['|', '|', '|', '|', '|' ("name", "ilike","Hart|perry;kelly"), ("name", "ilike","Hart|perry"), ("name", "ilike","Hart"), ("name", "ilike","perry;kelly"), ("name", "ilike","kelly"), ("name", "ilike","kelly"), ("name", "ilike", "/Hart|perry;kelly")]
+
+.. code-block:: python
+
+	domain = [("name", "ilike","/Hart|perry;kelly")]
+
+into 
+
+.. code-block:: python
+
+	[
+		"|",
+		"|",
+		"|",
+		"|",
+		"|",
+		("name", "ilike", "Hart|perry;kelly"),
+		("name", "ilike", "Hart|perry"),
+		("name", "ilike", "Hart"),
+		("name", "ilike", "perry;kelly"),
+		("name", "ilike", "kelly"),
+		("name", "ilike", "kelly"),
+		("name", "ilike", "/Hart|perry;kelly"),
+	]
 
 **Table of contents**
 
@@ -49,11 +67,12 @@ Configuration
 =============
 
 To configure the separator you must:
-    * be in dev_mode
-    * go to Settings / technical / system parameter
-    * search multi_search_separator
-    * add/rm the separator
-    * available separators must be set like this :  \|; for "|" and ";"
+
+* be in dev_mode
+* go to Settings / technical / system parameter
+* search multi_search_separator
+* add/rm the separator
+* available separators must be set like this :  \|; for "|" and ";"
 
 Usage
 =====
