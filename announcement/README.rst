@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 ============
 Announcement
 ============
@@ -17,7 +13,7 @@ Announcement
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fserver--ux-lightgray.png?logo=github
@@ -54,6 +50,10 @@ When your user has such permissions, this is the way to create an announcement:
    - Specific users: manually select which users will see the announcement.
    - User groups: users from the selected groups will be the ones to see the
      announcement.
+   - Excluded users: excluded users won't see the announcement even it is a general 
+     announcement or belongs to selected groups.
+   - Excluded groups: users from the excluded groups won't see the announcement even it
+     is a general announcement or belongs to selected groups.
 #. Define the announcement body. You can use rich formatting and event paste your
    own html (editor in debug mode).
 #. By default, the announcement will be archived. This is to prevent the announcement
@@ -110,6 +110,10 @@ Contributors
   * Pedro M. Baeza
   * David Vidal
   * Carlos Roca
+
+* `Dixmit <https://www.dixmit.com>`__:
+
+  * Luis David Rodríguez
 
 Maintainers
 ~~~~~~~~~~~
