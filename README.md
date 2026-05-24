@@ -21,12 +21,12 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[announcement](announcement/) | 16.0.1.0.2 |  | Notify internal users about relevant organization stuff
+[announcement](announcement/) | 16.0.1.1.0 |  | Notify internal users about relevant organization stuff
 [announcement_dialog_size](announcement_dialog_size/) | 16.0.1.0.0 |  | Allow set announcement dialogs fullsized by default
 [barcode_action](barcode_action/) | 16.0.1.0.1 |  | Allows to use barcodes as a launcher
 [base_archive_security](base_archive_security/) | 16.0.1.0.1 | <a href='https://github.com/imlopes'><img src='https://github.com/imlopes.png' width='32' height='32' style='border-radius:50%;' alt='imlopes'/></a> <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Controls who can archive or unarchive records
 [base_binary_url_import](base_binary_url_import/) | 16.0.1.0.0 |  | Wizard to import binary files from URL on existing records
-[base_cancel_confirm](base_cancel_confirm/) | 16.0.1.0.1 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Base Cancel Confirm
+[base_cancel_confirm](base_cancel_confirm/) | 16.0.1.0.2 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Base Cancel Confirm
 [base_custom_filter](base_custom_filter/) | 16.0.1.1.1 | <a href='https://github.com/AshishHirapara'><img src='https://github.com/AshishHirapara.png' width='32' height='32' style='border-radius:50%;' alt='AshishHirapara'/></a> <a href='https://github.com/ForgeFlow'><img src='https://github.com/ForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ForgeFlow'/></a> | Add custom filters in standard filters and group by dropdowns
 [base_export_manager](base_export_manager/) | 16.0.1.0.3 |  | Manage model export profiles
 [base_import_security_group](base_import_security_group/) | 16.0.1.0.0 |  | Group-based permissions for importing CSV files
@@ -53,12 +53,13 @@ addon | version | maintainers | summary
 [date_range_account](date_range_account/) | 16.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add Date Range menu entry in Invoicing app
 [developer_menu](developer_menu/) | 16.0.1.0.0 | <a href='https://github.com/bealdav'><img src='https://github.com/bealdav.png' width='32' height='32' style='border-radius:50%;' alt='bealdav'/></a> | Menu Shortcut for developer usage
 [document_quick_access](document_quick_access/) | 16.0.1.0.1 | <a href='https://github.com/etobella'><img src='https://github.com/etobella.png' width='32' height='32' style='border-radius:50%;' alt='etobella'/></a> | Document quick access
-[document_quick_access_folder_auto_classification](document_quick_access_folder_auto_classification/) | 16.0.1.0.1 | <a href='https://github.com/etobella'><img src='https://github.com/etobella.png' width='32' height='32' style='border-radius:50%;' alt='etobella'/></a> | Auto classification of Documents after reading a QR
+[document_quick_access_folder_auto_classification](document_quick_access_folder_auto_classification/) | 16.0.1.0.2 | <a href='https://github.com/etobella'><img src='https://github.com/etobella.png' width='32' height='32' style='border-radius:50%;' alt='etobella'/></a> | Auto classification of Documents after reading a QR
 [filter_multi_user](filter_multi_user/) | 16.0.1.0.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Allows to share user-defined filters filters among several users.
 [mail_message_destiny_link_template](mail_message_destiny_link_template/) | 16.0.1.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Mail template to show destiny records in chatter.
 [mail_suggested_recipient_unchecked](mail_suggested_recipient_unchecked/) | 16.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Mail suggested recipient unchecked
 [misc_settings](misc_settings/) | 16.0.1.0.0 | <a href='https://github.com/bealdav'><img src='https://github.com/bealdav.png' width='32' height='32' style='border-radius:50%;' alt='bealdav'/></a> | Miscellaneous settings to be an anchor for your custom settings
 [multi_step_wizard](multi_step_wizard/) | 16.0.1.0.0 |  | Multi-Steps Wizards
+[multisearch_field](multisearch_field/) | 16.0.1.0.1 |  | add modification on search to search multi_value with separator
 [sequence_check_digit](sequence_check_digit/) | 16.0.1.0.1 |  | Adds a check digit on sequences
 [sequence_reset_period](sequence_reset_period/) | 16.0.1.0.0 |  | Auto-generate yearly/monthly/weekly/daily sequence period ranges
 [server_action_mass_edit](server_action_mass_edit/) | 16.0.2.1.1 |  | Mass Editing
